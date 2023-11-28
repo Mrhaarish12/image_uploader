@@ -5,3 +5,4 @@ class ImageForm(forms.ModelFrom):
     class Meta:
         model = Image
         fields = '__all__'
+        labels = {'photo': ''}
